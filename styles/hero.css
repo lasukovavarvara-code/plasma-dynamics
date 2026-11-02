@@ -1,0 +1,88 @@
+.hero {
+  position: relative;
+  min-height: 680px;
+  background: var(--color-navy-900);
+  color: var(--color-text-on-dark);
+  overflow: hidden;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, var(--color-navy-900) 0%, var(--color-navy-900) 35%, rgba(7, 19, 31, 0.55) 60%, rgba(7, 19, 31, 0) 100%),
+    url("../images/hero/hero-bg.jpg") right center / cover no-repeat;
+}
+
+.hero__inner {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.hero__title {
+  max-width: 900px;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.hero__title-accent {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+.hero__text {
+  max-width: 640px;
+  margin-top: 32px;
+  font-size: 22px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.hero__search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 825px;
+  height: 74px;
+  margin-top: 56px;
+  padding-left: 24px;
+  border-radius: var(--radius-md);
+  background: var(--color-white);
+  color: var(--color-text);
+  overflow: hidden;
+}
+
+.hero__search-input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  padding: 0 20px;
+  border: 0;
+  background: transparent;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+}
+
+.hero__search-input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.hero__search-input:focus {
+  outline: none;
+}
+
+.hero__search-btn {
+  display: grid;
+  place-items: center;
+  width: 70px;
+  height: 100%;
+  background: var(--color-accent);
+  transition: background var(--transition);
+}
+
+.hero__search-btn:hover {
+  background: var(--color-accent-dark);
+}

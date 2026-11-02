@@ -1,0 +1,87 @@
+.footer {
+  background: var(--color-navy-800);
+  color: var(--color-text-on-dark);
+  padding-block: 64px 28px;
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+}
+
+.footer__logo {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer__slogan {
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.footer__copy {
+  margin-top: auto;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--color-text-on-dark-muted);
+}
+
+.footer__title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.footer__list a {
+  font-size: 17px;
+  color: var(--color-text-on-dark-muted);
+  transition: color var(--transition);
+}
+
+.footer__list a:hover {
+  color: var(--color-accent);
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-top: 40px;
+  justify-self: end;
+}
+
+.footer__contact {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 18px;
+}
+
+a.footer__contact:hover {
+  color: var(--color-accent);
+}
+
+.footer__contact-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--color-navy-600);
+}
