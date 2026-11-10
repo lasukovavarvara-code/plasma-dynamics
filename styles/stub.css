@@ -1,0 +1,22 @@
+.stub {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: calc(var(--header-height) + 80px) 0 80px;
+  background: var(--color-navy-900);
+  color: var(--color-text-on-dark);
+}
+
+.stub__title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.stub__text {
+  max-width: 640px;
+  margin: 28px 0 48px;
+  font-size: 22px;
+  line-height: 1.4;
+  color: var(--color-text-on-dark-muted);
+}

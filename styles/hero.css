@@ -1,6 +1,7 @@
 .hero {
   position: relative;
-  min-height: 680px;
+
+  min-height: 40.2vw;
   background: var(--color-navy-900);
   color: var(--color-text-on-dark);
   overflow: hidden;
@@ -16,7 +17,7 @@
 
 .hero__inner {
   position: relative;
-  padding-top: 100px;
+  padding-top: calc(100px + var(--header-height));
   padding-bottom: 120px;
 }
 
@@ -34,7 +35,7 @@
 }
 
 .hero__text {
-  max-width: 640px;
+  max-width: 760px;
   margin-top: 32px;
   font-size: 22px;
   line-height: 1.4;

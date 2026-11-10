@@ -1,55 +1,60 @@
 .footer {
-  background: var(--color-navy-800);
+  background: var(--color-footer-bg);
   color: var(--color-text-on-dark);
-  padding-block: 64px 28px;
+  padding-block: 72px 30px;
 }
 
 .footer__inner {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
+  grid-template-columns: 43.8% 1fr auto;
+  column-gap: 0;
   align-items: start;
 }
 
 .footer__brand {
   display: flex;
   flex-direction: column;
-  min-height: 250px;
+  min-height: 260px;
 }
 
 .footer__logo {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
+  line-height: 30px;
+  color: var(--color-text-on-dark);
 }
 
 .footer__slogan {
-  margin-top: 40px;
+  margin-top: 32px;
   font-size: 14px;
+  color: var(--color-footer-text-muted);
 }
 
 .footer__copy {
   margin-top: auto;
   font-size: 12px;
   line-height: 1.4;
-  color: var(--color-text-on-dark-muted);
+  color: var(--color-footer-text-muted);
 }
 
 .footer__title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 30px;
+  color: var(--color-text-on-dark);
 }
 
 .footer__list {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 8px;
+  margin-top: 11px;
 }
 
 .footer__list a {
-  font-size: 17px;
-  color: var(--color-text-on-dark-muted);
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--color-footer-text-muted);
   transition: color var(--transition);
 }
 
@@ -60,7 +65,7 @@
 .footer__contacts {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 20px;
   padding-top: 40px;
   justify-self: end;
 }
@@ -68,8 +73,9 @@
 .footer__contact {
   display: flex;
   align-items: center;
-  gap: 14px;
-  font-size: 18px;
+  gap: 12px;
+  font-size: 16px;
+  color: var(--color-text-on-dark);
 }
 
 a.footer__contact:hover {
@@ -80,8 +86,8 @@ a.footer__contact:hover {
   display: grid;
   place-items: center;
   flex-shrink: 0;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
-  background: var(--color-navy-600);
+  background: var(--color-footer-icon-bg);
 }

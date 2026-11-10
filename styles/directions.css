@@ -6,7 +6,7 @@
 .directions__grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 20px;
+  gap: 24px;
   margin-top: 56px;
 }
 
@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-xl);
   background: var(--color-white);
   box-shadow: var(--shadow-card);
   overflow: hidden;
@@ -41,7 +41,7 @@
   margin: -26px 0 0 26px;
   position: relative;
   border-radius: var(--radius-md);
-  background: var(--color-white);
+  background: var(--color-bg-light);
   box-shadow: 0 2px 8px rgba(14, 27, 46, 0.18);
 }
 
@@ -53,6 +53,7 @@
 }
 
 .card-direction__text {
+  flex: 1 1 auto;
   margin: 12px 26px 0;
   font-size: 13px;
   line-height: 1.45;
@@ -60,13 +61,8 @@
 }
 
 .card-direction__arrow {
-  margin: auto 26px 18px;
-  padding-top: 0;
+  margin: 20px 26px 22px;
   transition: transform var(--transition);
-}
-
-.card-direction__text + .card-direction__arrow {
-  margin-top: 20px;
 }
 
 .card-direction__link:hover .card-direction__arrow {
