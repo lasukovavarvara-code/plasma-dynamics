@@ -1,0 +1,64 @@
+.page-hero {
+  position: relative;
+  min-height: calc(36.5625rem + var(--header-height));
+  background: var(--color-navy-900);
+  color: var(--color-text-on-dark);
+  overflow: hidden;
+}
+
+.page-hero__inner {
+  position: relative;
+  padding-top: 15.625rem;
+  padding-bottom: 8.125rem;
+}
+
+.page-hero__title {
+  display: flex;
+  align-items: center;
+  max-width: 56.25rem;
+  min-height: 2.4em;
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.page-hero__text {
+  max-width: 43.125rem;
+  margin-top: 1.75rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.page-hero {
+  --hero-fade: linear-gradient(90deg, var(--color-navy-900) 0%, var(--color-navy-900) 46%, rgba(7, 19, 31, 0.65) 60%, rgba(7, 19, 31, 0.2) 78%, rgba(7, 19, 31, 0.1) 100%);
+}
+
+.page-hero__bg {
+  position: absolute;
+  inset: 0;
+}
+
+.page-hero--hvof__bd {
+  background: var(--hero-fade), url("../images/services/hvof-hero.jpg") right center / cover no-repeat;
+}
+
+.page-hero--plasma__bd {
+  background: var(--hero-fade), url("../images/services/plasma-hero.jpg") right center / cover no-repeat;
+}
+
+.page-hero--components__bd {
+  background: var(--hero-fade), url("../images/services/components-hero.jpg") right center / cover no-repeat;
+}
+
+.page-hero--repair__bd {
+  background: var(--hero-fade), url("../images/services/repair-hero.jpg") right center / cover no-repeat;
+}
+
+.page-hero--research__bd {
+  background: var(--hero-fade), url("../images/services/research-hero.jpg") right center / cover no-repeat;
+}
+
+.page-hero--laboratory__bd {
+  background: var(--hero-fade), url("../images/services/laboratory-hero.jpg") right center / cover no-repeat;
+}

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plasma Dynamics — знания о технологиях покрытий и восстановлении</title>
+  <meta name="description" content="Технические материалы, статьи и научные публикации о современных методах нанесения покрытий, материалах и их применении в промышленности.">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__inner container">
+      <a href="index.html" class="header__logo">Plasma Dynamics</a>
+
+      <nav class="nav" id="main-nav" aria-label="Главное меню">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--has-dropdown">
+            <span class="nav__link" tabindex="0">
+              Услуги
+              <img class="nav__chevron" src="images/icons/chevron-down-white.svg" alt="" width="10" height="10">
+            </span>
+            <ul class="dropdown">
+              <li><a href="pages/services/hvof.html" class="dropdown__link">HVOF - Газопламенное напыление</a></li>
+              <li><a href="pages/services/plasma.html" class="dropdown__link">Плазменное напыление</a></li>
+              <li><a href="pages/services/components.html" class="dropdown__link">Производство компонентов</a></li>
+              <li><a href="pages/services/repair.html" class="dropdown__link">Ремонт и восстановление размеров</a></li>
+              <li><a href="pages/services/research.html" class="dropdown__link">Исследования и разработки</a></li>
+              <li><a href="pages/services/laboratory.html" class="dropdown__link">Лабораторные услуги</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a href="pages/industries.html" class="nav__link">Отраслевые решения</a></li>
+          <li class="nav__item"><a href="pages/clients.html" class="nav__link">Клиенты</a></li>
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="pages/company.html" class="nav__link">
+              Компания
+              <img class="nav__chevron" src="images/icons/chevron-down-white.svg" alt="" width="10" height="10">
+            </a>
+            <ul class="dropdown">
+              <li><a href="pages/company/presentation.html" class="dropdown__link">Презентация PLASMA DYNAMICS</a></li>
+              <li><a href="pages/company/certificates.html" class="dropdown__link">Сертификаты</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a href="pages/blog.html" class="nav__link">Блог</a></li>
+          <li class="nav__item"><a href="pages/contacts.html" class="nav__link">Связаться с нами</a></li>
+        </ul>
+      </nav>
+
+      <form class="header__search" action="pages/search.html" method="get" role="search">
+        <input type="search" name="q" class="header__search-input" placeholder="Поиск по сайту..." aria-label="Поиск по сайту">
+        <button type="submit" class="header__search-btn" aria-label="Найти">
+          <img src="images/icons/search-white.svg" alt="" width="22" height="22">
+        </button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__inner container">
+        <h1 class="hero__title">
+          Знания о технологиях <br>покрытий <span class="hero__title-accent">и восстановлении</span>
+        </h1>
+        <p class="hero__text">
+          Технические материалы, статьи и научные публикации<br>
+          о современных методах нанесения покрытий, материалах<br>
+          и их применении в различных отраслях промышленности.
+        </p>
+
+        <form class="hero__search" action="pages/search.html" method="get" role="search">
+          <img class="hero__search-icon" src="images/icons/search-gray.svg" alt="" width="20" height="20">
+          <input type="search" name="q" class="hero__search-input" placeholder="Найти технологию, материал, статью или термин..." aria-label="Поиск технологии, материала, статьи или термина">
+          <button type="submit" class="hero__search-btn" aria-label="Найти">
+            <img src="images/icons/arrow-right-white.svg" alt="" width="24" height="24">
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="directions section">
+      <div class="container">
+        <h2 class="section-title">Основные направления</h2>
+
+        <ul class="directions__grid">
+          <li class="card-direction">
+            <a href="pages/services/hvof.html" class="card-direction__link">
+              <img class="card-direction__img" src="images/directions/hvof.jpg" alt="Газопламенное напыление HVOF" loading="lazy">
+              <span class="card-direction__icon"><img src="images/icons/flame.svg" alt="" width="26" height="26"></span>
+              <h3 class="card-direction__title">Газопламенное напыление</h3>
+              <p class="card-direction__text">Процесс высокоскоростного низкотемпературного термического напыления с использованием горения газа (водорода) или жидкого топлива (керосина).</p>
+              <img class="card-direction__arrow" src="images/icons/arrow-right-dark.svg" alt="" width="20" height="20">
+            </a>
+          </li>
+
+          <li class="card-direction">
+            <a href="pages/services/plasma.html" class="card-direction__link">
+              <img class="card-direction__img" src="images/directions/plasma.jpg" alt="Плазменное напыление" loading="lazy">
+              <span class="card-direction__icon"><img src="images/icons/flame-plasma.svg" alt="" width="26" height="26"></span>
+              <h3 class="card-direction__title">Плазменное напыление</h3>
+              <p class="card-direction__text">В процессе плазменного напыления для создания источника тепла используется скрытая теплота ионизированного инертного газа (плазмы).</p>
+              <img class="card-direction__arrow" src="images/icons/arrow-right-dark.svg" alt="" width="20" height="20">
+            </a>
+          </li>
+
+          <li class="card-direction">
+            <a href="pages/services/components.html" class="card-direction__link">
+              <img class="card-direction__img" src="images/directions/components.jpg" alt="Производство компонентов" loading="lazy">
+              <span class="card-direction__icon"><img src="images/icons/gear.svg" alt="" width="26" height="26"></span>
+              <h3 class="card-direction__title">Производство компонентов</h3>
+              <p class="card-direction__text">TSS предлагает услугу «с добавленной стоимостью» по изготовлению компонентов с термическим напылением, таких как валы или втулки, «под ключ».</p>
+              <img class="card-direction__arrow" src="images/icons/arrow-right-dark.svg" alt="" width="20" height="20">
+            </a>
+          </li>
+
+          <li class="card-direction">
+            <a href="pages/services/repair.html" class="card-direction__link">
+              <img class="card-direction__img" src="images/directions/repair.jpg" alt="Ремонт и восстановление" loading="lazy">
+              <span class="card-direction__icon"><img src="images/icons/wrench.svg" alt="" width="26" height="26"></span>
+              <h3 class="card-direction__title">Ремонт и восстановление</h3>
+              <p class="card-direction__text">Оборудование и детали в любой отрасли промышленности подвержены абразивному и/или коррозионному и эрозионному износу.</p>
+              <img class="card-direction__arrow" src="images/icons/arrow-right-dark.svg" alt="" width="20" height="20">
+            </a>
+          </li>
+
+          <li class="card-direction">
+            <a href="pages/services/research.html" class="card-direction__link">
+              <img class="card-direction__img" src="images/directions/research.jpg" alt="Исследования и разработки" loading="lazy">
+              <span class="card-direction__icon"><img src="images/icons/anvil.svg" alt="" width="26" height="26"></span>
+              <h3 class="card-direction__title">Исследования и разработки</h3>
+              <p class="card-direction__text">TSS — центр исследований, разработок и испытаний покрытий. Мы помогаем клиентам оценивать и тестировать новые решения для конкретных задач.</p>
+              <img class="card-direction__arrow" src="images/icons/arrow-right-dark.svg" alt="" width="20" height="20">
+            </a>
+          </li>
+
+          <li class="card-direction">
+            <a href="pages/services/laboratory.html" class="card-direction__link">
+              <img class="card-direction__img" src="images/directions/laboratory.jpg" alt="Лабораторные услуги" loading="lazy">
+              <span class="card-direction__icon"><img src="images/icons/grid.svg" alt="" width="26" height="26"></span>
+              <h3 class="card-direction__title">Лабораторные услуги</h3>
+              <p class="card-direction__text">TSS располагает полноценной металлургической лабораторией для термического напыления, где разрабатываются покрытия, оптимизируются процессы нанесения и оптимизации.</p>
+              <img class="card-direction__arrow" src="images/icons/arrow-right-dark.svg" alt="" width="20" height="20">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="technologies">
+      <div class="container technologies__inner">
+        <span class="technologies__tag technologies__tag--left">* Технологии</span>
+        <span class="technologies__tag technologies__tag--right">* Структура покрытия</span>
+
+        <div class="technologies__content">
+          <h2 class="section-title">Ключевые технологии</h2>
+          <p class="technologies__text">
+            Мы применяем современные методы нанесения покрытий, чтобы обеспечить высокую износостойкость, коррозионную стойкость и надежность деталей в самых сложных условиях эксплуатации.
+          </p>
+          <a href="pages/technologies.html" class="btn">
+            Все технологии
+            <img src="images/icons/arrow-right-white.svg" alt="" width="22" height="22">
+          </a>
+        </div>
+
+        <figure class="technologies__figure">
+          <img class="technologies__img" src="images/technologies/coating-structure.png" alt="Структура покрытия в разрезе" loading="lazy">
+
+          <svg class="technologies__lines" viewBox="0 0 1040 433" aria-hidden="true">
+            <g>
+              <polyline points="613,72 705,72 735,45 760,45"/>
+              <circle cx="760" cy="45" r="5"/>
+            </g>
+            <g>
+              <polyline points="585,146 705,146 735,135 760,135"/>
+              <circle cx="760" cy="135" r="5"/>
+            </g>
+            <g>
+              <polyline points="590,200 705,200 735,215 760,215"/>
+              <circle cx="760" cy="215" r="5"/>
+            </g>
+          </svg>
+
+          <ul class="technologies__labels">
+            <li class="technologies__label technologies__label--1">
+              <span class="technologies__label-title">Основной слой</span>
+              <span class="technologies__label-sub">(связующий)</span>
+            </li>
+            <li class="technologies__label technologies__label--2">
+              <span class="technologies__label-title">Промежуточный слой</span>
+            </li>
+            <li class="technologies__label technologies__label--3">
+              <span class="technologies__label-title">Рабочий слой</span>
+              <span class="technologies__label-sub">(износостойкий)</span>
+            </li>
+          </ul>
+        </figure>
+      </div>
+    </section>
+
+    <section class="materials section">
+      <div class="container">
+        <div class="materials__head">
+          <h2 class="section-title">Последние материалы</h2>
+          <a href="pages/blog.html" class="materials__all">
+            Все публикации
+            <img src="images/icons/arrow-right-blue.svg" alt="" width="22" height="22">
+          </a>
+        </div>
+
+        <ul class="materials__grid">
+          <li class="card-material">
+            <a href="pages/blog/article-1.html" class="card-material__link">
+              <span class="card-material__tag">Научные публикации</span>
+              <img class="card-material__img" src="images/materials/material-1.jpg" alt="" loading="lazy">
+              <h3 class="card-material__title">Текст</h3>
+              <div class="card-material__footer">
+                <time class="card-material__date" datetime="2026-11-02">дата</time>
+                <img src="images/icons/arrow-right-gray.svg" alt="" width="18" height="18">
+              </div>
+            </a>
+          </li>
+
+          <li class="card-material">
+            <a href="pages/blog/article-2.html" class="card-material__link">
+              <span class="card-material__tag">Статьи</span>
+              <img class="card-material__img" src="images/materials/material-2.jpg" alt="" loading="lazy">
+              <h3 class="card-material__title">Текст</h3>
+              <div class="card-material__footer">
+                <time class="card-material__date" datetime="2026-11-02">дата</time>
+                <img src="images/icons/arrow-right-gray.svg" alt="" width="18" height="18">
+              </div>
+            </a>
+          </li>
+
+          <li class="card-material">
+            <a href="pages/blog/article-3.html" class="card-material__link">
+              <span class="card-material__tag">Технические материалы</span>
+              <img class="card-material__img" src="images/materials/material-3.jpg" alt="" loading="lazy">
+              <h3 class="card-material__title">Текст</h3>
+              <div class="card-material__footer">
+                <time class="card-material__date" datetime="2026-11-02">дата</time>
+                <img src="images/icons/arrow-right-gray.svg" alt="" width="18" height="18">
+              </div>
+            </a>
+          </li>
+
+          <li class="card-material">
+            <a href="pages/blog/article-4.html" class="card-material__link">
+              <span class="card-material__tag">Научные публикации</span>
+              <img class="card-material__img" src="images/materials/material-4.jpg" alt="" loading="lazy">
+              <h3 class="card-material__title">Текст</h3>
+              <div class="card-material__footer">
+                <time class="card-material__date" datetime="2026-11-02">дата</time>
+                <img src="images/icons/arrow-right-gray.svg" alt="" width="18" height="18">
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner container">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">Plasma Dynamics</a>
+        <p class="footer__slogan">Инженерные знания о технологиях покрытий</p>
+        <p class="footer__copy">Товарный знак © 2026 Plasma Dynamics.<br>Авторское право сохранено.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Карта сайта">
+        <h2 class="footer__title">Карта сайта</h2>
+        <ul class="footer__list">
+          <li><a href="pages/services.html">услуги</a></li>
+          <li><a href="pages/industries.html">отраслевые решения</a></li>
+          <li><a href="pages/clients.html">клиенты</a></li>
+          <li><a href="pages/company.html">компания</a></li>
+          <li><a href="pages/blog.html">блог</a></li>
+          <li><a href="pages/contacts.html">связаться с нами</a></li>
+        </ul>
+      </nav>
+
+      <address class="footer__contacts">
+        <a href="tel:+79920143877" class="footer__contact">
+          <span class="footer__contact-icon"><img src="images/icons/phone.svg" alt="" width="14" height="14"></span>
+          +7 992 014-38-77
+        </a>
+        <a href="mailto:plasmadynamics@yandex.ru" class="footer__contact">
+          <span class="footer__contact-icon"><img src="images/icons/mail.svg" alt="" width="14" height="14"></span>
+          plasmadynamics@yandex.ru
+        </a>
+        <span class="footer__contact">
+          <span class="footer__contact-icon"><img src="images/icons/pin.svg" alt="" width="14" height="14"></span>
+          Свердловская область, Екатеринбург
+        </span>
+      </address>
+    </div>
+  </footer>
+
+</body>
+</html>
