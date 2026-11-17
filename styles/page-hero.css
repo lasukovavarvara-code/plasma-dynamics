@@ -62,3 +62,55 @@
 .page-hero--laboratory__bd {
   background: var(--hero-fade), url("../images/services/laboratory-hero.jpg") right center / cover no-repeat;
 }
+
+.page-hero--industries__bd {
+  background: var(--hero-fade), url("../images/industries/industries-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--aviation__bd {
+  background: var(--hero-fade), url("../images/industries/aviation-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--shipbuilding__bd {
+  background: var(--hero-fade), url("../images/industries/shipbuilding-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--food__bd {
+  background: var(--hero-fade), url("../images/industries/food-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--gas-turbines__bd {
+  background: var(--hero-fade), url("../images/industries/gas-turbines-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--steam-turbines__bd {
+  background: var(--hero-fade), url("../images/industries/steam-turbines-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--valves__bd {
+  background: var(--hero-fade), url("../images/industries/valves-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--pumps__bd {
+  background: var(--hero-fade), url("../images/industries/pumps-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--hydraulics__bd {
+  background: var(--hero-fade), url("../images/industries/hydraulics-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--paper__bd {
+  background: var(--hero-fade), url("../images/industries/paper-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--metallurgy__bd {
+  background: var(--hero-fade), url("../images/industries/metallurgy-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--glass__bd {
+  background: var(--hero-fade), url("../images/industries/glass-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
+
+.page-hero--other__bd {
+  background: var(--hero-fade), url("../images/industries/other-hero.jpg") right top / auto 100% no-repeat var(--color-navy-900);
+}
