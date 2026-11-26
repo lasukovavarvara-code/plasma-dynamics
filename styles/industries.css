@@ -163,7 +163,7 @@
   flex-shrink: 0;
   width: 5.5rem;
   height: 5.5rem;
-  border: 1.5px solid #2c5d93;
+  border: 1px solid rgba(83, 186, 244, 1);
   border-radius: 50%;
   background: rgba(20, 56, 100, 0.6);
 }
@@ -736,6 +736,42 @@
   padding-bottom: 0.5rem;
 }
 
+.industry-section + .industry-tabs {
+  padding-top: 3.25rem;
+}
+
 .industry-tabs + .industry-finish {
-  margin-top: 2.625rem;
+  margin-top: 2.875rem;
+}
+
+.industry-panel--aviation,
+.industry-panel--gas-turbines,
+.industry-panel--steam-turbines,
+.industry-panel--shipbuilding {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.industry-panel--aviation::before,
+.industry-panel--gas-turbines::before,
+.industry-panel--steam-turbines::before,
+.industry-panel--shipbuilding::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    #0b1b30 0%,
+    rgba(11, 27, 48, 0.96) 38%,
+    rgba(11, 27, 48, 0.55) 62%,
+    rgba(11, 27, 48, 0) 100%
+  );
+}
+
+.industry-panel--gas-turbines {
+  background-position: right center;
+  background-size: auto 100%;
 }

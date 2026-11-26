@@ -26,7 +26,7 @@
 
   --font-main: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 
-  --header-height: 5rem;
+  --header-height: 6.25rem;
   --container-max: 1920px;
   --container-padding: clamp(1rem, 4.17vw, 5rem);
 

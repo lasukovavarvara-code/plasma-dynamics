@@ -34,11 +34,20 @@ body {
   background: var(--color-navy-600);
   color: var(--color-white);
   font-size: 1.125rem;
-  transition: background var(--transition);
+  transition: background var(--transition), color var(--transition);
 }
 
-.btn:hover {
-  background: var(--color-navy-700);
+.btn img {
+  transition: filter var(--transition);
+}
+
+a.btn:hover {
+  background: #4db3f5;
+  color: var(--color-navy-800);
+}
+
+a.btn:hover img {
+  filter: brightness(0) invert(0.1);
 }
 
 a:focus-visible,

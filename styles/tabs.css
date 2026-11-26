@@ -89,10 +89,31 @@
   color: var(--color-navy-700);
 }
 
-.tabs__img {
-  width: 100%;
+.tabs__media {
+  position: relative;
   height: 39.5625rem;
+  overflow: hidden;
   border-radius: var(--radius-xl);
+}
+
+.tabs__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.9) 12%,
+    rgba(255, 255, 255, 0.5) 35%,
+    rgba(255, 255, 255, 0) 68%
+  );
+  pointer-events: none;
+}
+
+.tabs__img {
+  display: block;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -130,7 +151,7 @@
   padding-right: 2rem;
 }
 
-.tabs--panel .tabs__img {
+.tabs--panel .tabs__media {
   height: 39.5rem;
   border-radius: 0;
 }

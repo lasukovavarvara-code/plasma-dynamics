@@ -17,7 +17,7 @@
 
 .hero__inner {
   position: relative;
-  padding-top: calc(6.25rem + var(--header-height));
+  padding-top: 11.25rem;
   padding-bottom: 7.5rem;
 }
 

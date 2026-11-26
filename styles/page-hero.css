@@ -1,6 +1,6 @@
 .page-hero {
   position: relative;
-  min-height: calc(36.5625rem + var(--header-height));
+  min-height: 41.5625rem;
   background: var(--color-navy-900);
   color: var(--color-text-on-dark);
   overflow: hidden;

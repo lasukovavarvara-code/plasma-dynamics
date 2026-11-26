@@ -1,0 +1,78 @@
+.segment-tile,
+.feature-card,
+.component-card,
+.material-card,
+.industry-card,
+.benefit-card,
+.company-card,
+.client-card,
+.search-results__item {
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.segment-tile:hover,
+.feature-card:hover,
+.industry-card:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 0.625rem 1.5rem rgba(14, 27, 46, 0.25);
+}
+
+.component-card:hover,
+.material-card:hover,
+.benefit-card:hover,
+.company-card:hover,
+.search-results__item:hover {
+  transform: translateY(-0.1875rem);
+  box-shadow: 0 0.5rem 1.25rem rgba(14, 27, 46, 0.18);
+}
+
+.client-card:hover {
+  transform: translateY(-0.1875rem);
+  border-color: var(--color-accent);
+}
+
+.segment-tile__img,
+.feature-card__img,
+.industry-tile__img,
+.card-direction__img,
+.card-material__img {
+  transition: transform 0.4s ease;
+}
+
+.segment-tile:hover .segment-tile__img,
+.feature-card:hover .feature-card__img,
+.industry-tile:hover .industry-tile__img,
+.card-direction__link:hover .card-direction__img,
+.card-material__link:hover .card-material__img {
+  transform: scale(1.05);
+}
+
+.industry-tile,
+.segment-tile,
+.feature-card,
+.card-direction__link,
+.card-material__link {
+  overflow: hidden;
+}
+
+.tabs__tab:hover .tabs__chevron {
+  transform: translateX(0.25rem);
+}
+
+.tabs__chevron {
+  transition: transform var(--transition);
+}
+
+.breadcrumbs__link,
+.footer__list a,
+.nav__link,
+.dropdown__link {
+  transition: color var(--transition);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

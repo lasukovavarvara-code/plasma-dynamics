@@ -1,17 +1,35 @@
 .header {
-
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
   height: var(--header-height);
 
-  background: rgba(6, 25, 42, 0.55);
-  -webkit-backdrop-filter: blur(0.25rem);
-  backdrop-filter: blur(0.25rem);
+  background: rgb(6, 25, 42);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   color: var(--color-text-on-dark);
+}
+
+@keyframes header-solid {
+  from {
+    background-color: rgba(6, 25, 42, 0.55);
+  }
+
+  to {
+    background-color: rgb(6, 25, 42);
+  }
+}
+
+@supports (animation-timeline: scroll()) {
+  .header {
+    background-color: rgba(6, 25, 42, 0.55);
+    -webkit-backdrop-filter: blur(0.25rem);
+    backdrop-filter: blur(0.25rem);
+    animation: header-solid linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 6.25rem;
+  }
 }
 
 .header__inner {

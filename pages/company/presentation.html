@@ -1,4 +1,3 @@
-<!--
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -33,10 +32,10 @@
           <li class="nav__item"><a href="../industries.html" class="nav__link">Отраслевые решения</a></li>
           <li class="nav__item"><a href="../clients.html" class="nav__link">Клиенты</a></li>
           <li class="nav__item nav__item--has-dropdown">
-            <a href="../company.html" class="nav__link">
+            <span class="nav__link" tabindex="0">
               Компания
               <img class="nav__chevron" src="../../images/icons/chevron-down-white.svg" alt="" width="10" height="10">
-            </a>
+            </span>
             <ul class="dropdown">
               <li><a href="../company/presentation.html" class="dropdown__link">Презентация PLASMA DYNAMICS</a></li>
               <li><a href="../company/certificates.html" class="dropdown__link">Сертификаты</a></li>
@@ -57,17 +56,67 @@
   </header>
 
   <main>
-
-    <section class="stub">
-      <div class="container">
-        <h1 class="stub__title">Презентация PLASMA DYNAMICS</h1>
-        <p class="stub__text">Страница находится в разработке и скоро появится на сайте.</p>
-        <a href="../../index.html" class="btn">
-          На главную
-          <img src="../../images/icons/arrow-right-white.svg" alt="" width="22" height="22">
-        </a>
+    <section class="page-hero page-hero--company">
+      <div class="page-hero__bg page-hero--company__bd" aria-hidden="true"></div>
+      <div class="page-hero__inner container">
+        <h1 class="page-hero__title">Презентация <span class="page-hero__accent">PLASMA DYNAMICS</span></h1>
+        <p class="page-hero__text">Решения в области плазменной обработки, высокоскоростного<br>газопламенного напыления и металлизации для промышленности</p>
       </div>
     </section>
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <ol class="breadcrumbs__list container">
+        <li class="breadcrumbs__item"><a href="../../index.html" class="breadcrumbs__link">Главная</a></li>
+        <li class="breadcrumbs__item">Презентация PLASMA DYNAMICS</li>
+      </ol>
+    </nav>
+
+    <div class="company-page">
+      <section class="container company-overview">
+        <div class="company-overview__main">
+          <p class="company-overview__text">Мы разрабатываем индивидуальные решения на стыке технологий<br>роботизированного напыления, оптимизируя материалы<br>под конкретные условия эксплуатации оборудования.<br>Наш инженерный подход направлен на раскрытие эксплуатационного<br>потенциала конструкционных материалов, обеспечивая строгое<br>соответствие техническим заданиям (ТЗ) заказчика и высокую<br>точность геометрии слоев.</p>
+        </div>
+
+        <ul class="company-features">
+          <li class="company-features__item">
+            <span class="company-features__icon"><img src="../../images/icons/cog-light.svg" alt="" width="28" height="28"></span>
+            <p class="company-features__text"><span class="company-features__label">Высокоплотный глянцевый</span> — финишное суперфиниширование<br>под подшипники и уплотнения.</p>
+          </li>
+          <li class="company-features__item">
+            <span class="company-features__icon"><img src="../../images/icons/layers-light.svg" alt="" width="28" height="28"></span>
+            <p class="company-features__text"><span class="company-features__label">Матовый</span> — контролируемая шероховатость для оптимизации<br>сцепления.</p>
+          </li>
+          <li class="company-features__item">
+            <span class="company-features__icon"><img src="../../images/icons/drop-light.svg" alt="" width="28" height="28"></span>
+            <p class="company-features__text"><span class="company-features__label">Коррозионностойкий</span> — создание барьерных оксидных<br>и защитных слоев.</p>
+          </li>
+          <li class="company-features__item">
+            <span class="company-features__icon"><img src="../../images/icons/bulb-light.svg" alt="" width="28" height="28"></span>
+            <p class="company-features__text"><span class="company-features__label">Высокотехнологичный</span> — напыление карбидов<br>и металлокерамики для экстремальных нагрузок.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="company-section">
+        <div class="container">
+          <h2 class="section-title">Нанесение полимерных и композитных слоев</h2>
+
+          <div class="company-cards">
+          <article class="company-card">
+            <h3 class="company-card__title">Методы нанесения</h3>
+            <span class="company-card__num">01</span>
+            <p class="company-card__subtitle">Композитные и жидкие составы</p>
+            <p class="company-card__text">Экспертный опыт в нанесении порошковых, жидких химически стойких<br>и металлонаполненных композиций с контролируемой толщиной<br>и высокой прочностью адгезии.</p>
+          </article>
+          <article class="company-card">
+            <h3 class="company-card__title">Материалы подложек</h3>
+            <span class="company-card__num">02</span>
+            <p class="company-card__subtitle">Широкий спектр оснований</p>
+            <p class="company-card__text">Модификация поверхностей как классических конструкционных<br>металлов и сплавов, так и нестандартных материалов: мрамора,<br>стекловолокна, композитов и дерева.</p>
+          </article>
+          </div>
+        </div>
+      </section>
+    </div>
 
   </main>
 
@@ -82,10 +131,10 @@
       <nav class="footer__nav" aria-label="Карта сайта">
         <h2 class="footer__title">Карта сайта</h2>
         <ul class="footer__list">
-          <li><a href="../services.html">услуги</a></li>
+          <li><a href="../../index.html#services">услуги</a></li>
           <li><a href="../industries.html">отраслевые решения</a></li>
           <li><a href="../clients.html">клиенты</a></li>
-          <li><a href="../company.html">компания</a></li>
+          <li><a href="../company/presentation.html">компания</a></li>
           <li><a href="../blog.html">блог</a></li>
           <li><a href="../contacts.html">связаться с нами</a></li>
         </ul>
@@ -110,4 +159,3 @@
 
 </body>
 </html>
--->
